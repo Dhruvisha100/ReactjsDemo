@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapi.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    margin: 0;
+    background-color: aqua;
+}
+
+div {
+    text-align: center;
+    color: darkmagenta;
+}
+
+.pTag{
+    background-color: #fbf7f9;
+    border-radius: 10px;
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
